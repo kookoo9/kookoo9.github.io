@@ -1,0 +1,18 @@
+body{
+    /*공간 초기화*/
+    margin: 0;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../images/leading-24px.png");
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #010101;
+  /*자간을 의미한다 -0.5/1000*(계산함수)*/ 
+  letter-spacing: -0.005em;
+  font-family: "Spoqa Han Sans", "Spoqa Han Sans KR", "Sans-serif";
+}
